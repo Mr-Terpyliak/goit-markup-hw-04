@@ -53,12 +53,33 @@ address {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.header ::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 
 .header-menu-list {
   display: flex;
   gap: 40px;
   margin-right: 332px;
+  position: relative;
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-menu-link {
+  position: relative;
+  color: #404bbf;
 }
 
 .header-navigation {
@@ -122,6 +143,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /* margin-left: 332px; */
 }
 
@@ -134,6 +156,17 @@ address {
   background: #2e2f42;
   padding-bottom: 60px;
   padding: 188px 0;
+  width: 1440px;
+  height: 600px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/path_to_imag.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-text {
@@ -163,6 +196,7 @@ address {
   border: none;
   background-color: #4d5ae5;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-buy-btn:hover,
