@@ -103,6 +103,10 @@ address {
   margin-right: 76px;
 }
 
+.header-menu-item {
+  color: #404bbf;
+}
+
 .header-logo-pic {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
