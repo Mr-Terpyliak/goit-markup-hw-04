@@ -270,6 +270,8 @@ address {
 }
 
 .worked-icon {
+  width: 64px;
+  height: 64px;
 }
 
 .worked-subitle {
