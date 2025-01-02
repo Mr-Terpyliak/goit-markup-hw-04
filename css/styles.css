@@ -495,14 +495,15 @@ address {
 .footer {
   background: #2e2f42;
   padding: 100px 0;
+  display: flex;
+  align-items: baseline;
 }
 
 .container-social {
-  display: flex;
-  align-items: baseline;
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -549,7 +550,7 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--main-color);
+  color: #ffffff;
   margin-bottom: 16px;
 }
 
