@@ -495,8 +495,8 @@ address {
 .footer {
   background: #2e2f42;
   padding: 100px 0;
-  display: flex;
-  align-items: baseline;
+  /* display: flex;
+  align-items: baseline; */
 }
 
 .container-social {
@@ -532,6 +532,7 @@ address {
 }
 
 .footer-text {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -579,7 +580,7 @@ address {
 
 .footer-social-link:hover,
 .footer-social-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .footer-social-icons {
