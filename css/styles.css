@@ -600,9 +600,10 @@ address {
   margin: 0 auto;
 }
 
+/* .footer-container,
 .footer-logo-container {
   margin-right: 120px;
-}
+} */
 
 .footer-logo {
   display: flex;
@@ -672,7 +673,7 @@ address {
 
 .footer-social-link:hover,
 .footer-social-link:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .footer-social-icons {
