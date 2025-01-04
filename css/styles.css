@@ -605,7 +605,10 @@ address {
   margin-right: 120px;
 }
 
-
+/* .footer-container,
+.footer-logo-container {
+  margin-right: 120px;
+} */
 
 .footer-logo {
   display: flex;
